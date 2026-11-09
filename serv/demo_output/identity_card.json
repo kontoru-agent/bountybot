@@ -1,0 +1,28 @@
+{
+  "manifest": {
+    "agent_name": "Bountybot",
+    "owner": "Kontoru",
+    "repo": "https://github.com/kontoru-agent/bountybot",
+    "payout_near_address": "e9384dd304aa46614fae2e0a0bbc5b9a907d3ae83787971779552f80a8604668",
+    "scope_target": "Plether — packages/perps/src (Immunefi audit competition)",
+    "scope_commit": "a82d4fefb02768e5b3bddcc97dee371eee24fea8",
+    "serv_module": "bountybot/serv@1.0.0 (SERV Hackathon Edition 02)",
+    "issued_utc": "2026-11-09"
+  },
+  "identity_hash": "0063b8f3336bae2c069a4f15d63969b3a5a7ba3e956d49988c6094c48e9ef92a",
+  "signature": {
+    "backend": "simulated-testnet",
+    "simulated": true,
+    "mpc_contract": "v1.signer-prod.testnet",
+    "derivation_path": "bountybot-arbitrum-1",
+    "derived_evm_address": "0xf1d3f316b77c6e4b41e5a9fd1eb0ebe47cd463f7",
+    "signature": "0x238eccd46dc122c99e21a82dbdb0639c224ec13c23fd11fd783a993ff8b36039",
+    "warning": "SIMULATED signature for gate-logic demo only — no MPC call was made and this proves nothing on-chain."
+  },
+  "decision_log_ref": {
+    "fingerprint": "0c129bd08ac5e5b7",
+    "gate": "near/gated_signer.Gate via serv/spending_policy",
+    "note": "find this fingerprint in the decision logs; its verdict must be 'allow'"
+  },
+  "how_to_verify": "python3 serv/agent_identity.py --verify serv/identity_card.json"
+}

@@ -1,0 +1,1 @@
+{"ts": "2026-11-09T10:27:32Z", "candidate": "AGENT-IDENTITY", "action": "sign-identity-card", "target_contract": "v1.signer-prod.testnet", "payload_kind": "evidence_hash", "fingerprint": "0c129bd08ac5e5b7", "gate_decision_in": "allow", "verdict": "allow", "reason": "pipeline verdict is allow (PoC passed) with the human submission order on record"}
