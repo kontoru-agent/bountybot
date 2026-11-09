@@ -1,0 +1,8 @@
+{
+  "triage_mode": "local-fallback",
+  "survivors": 3,
+  "identity_verify_pass": true,
+  "injection_refused": true,
+  "demo_daily_spend_credits": 0.49,
+  "demo_daily_cap_credits": 0.5
+}
