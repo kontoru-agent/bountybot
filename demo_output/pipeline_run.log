@@ -1,0 +1,15 @@
+$ python3 pipeline.py
+=== Bountybot pipeline — Plether demo target (frozen scope) ===
+
+
+[scan] candidates -> /home/hatch/workspace/goals/bountybot-hunt-bounty-submit-hackathon/hidden_files/bountybot/demo_output/candidates.jsonl
+
+[skeptic] survivors=3 killed=5 -> survivors.jsonl + triage_report.md
+
+[near-ai] mode=local-fallback model=zai-org/GLM-5.1-FP8 annotated=3 record(s) in survivors.jsonl
+[near-ai]   K-1  category=liquidation-accounting
+[near-ai]   K-2  category=tranche-accounting
+[near-ai]   K-3  category=queue-liveness
+
+=== done — artefacts in demo_output/ (survivors are hypotheses; PoC gate is Layer 4) ===
+[exit=0]
