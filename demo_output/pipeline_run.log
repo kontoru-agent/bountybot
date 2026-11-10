@@ -2,7 +2,7 @@ $ python3 pipeline.py
 === Bountybot pipeline — Plether demo target (frozen scope) ===
 
 
-[scan] candidates -> /home/hatch/workspace/goals/bountybot-hunt-bounty-submit-hackathon/hidden_files/bountybot/demo_output/candidates.jsonl
+[scan] candidates -> demo_output/candidates.jsonl
 
 [skeptic] survivors=3 killed=5 -> survivors.jsonl + triage_report.md
 
